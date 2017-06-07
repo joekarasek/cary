@@ -31,7 +31,6 @@
   .slide1 {
     .slide__title {
       color: #2c2340;
-      font-family: $ff-dancing;
       line-height: 0.8;
       font-weight: 400;
       margin-bottom: 0;
@@ -41,7 +40,6 @@
 
     .slide__title-smile {
       color: #016e92;
-      font-family: $ff-raleway;
       font-weight: 700;
       margin-bottom: 60px;
       line-height: 1;
@@ -51,14 +49,12 @@
     }
 
     .slide__copy {
-      color: #332a46;
-      font-family: $ff-lato;
       margin-top: 5px;
       margin-bottom: 15px;
       line-height: 1;
       font-weight: 400;
 
-      @include font-size(33px, 32px, 24px, 24px, 24px);
+      @include font-size(28px, 25px, 24px, 24px, 24px);
     }
 
     //Align to bottom of slide
@@ -71,7 +67,6 @@
 
   .slide2 {
     .slide__title {
-      font-family: $ff-dancing;
       color: #2c2340;
       margin-bottom: 0;
 
@@ -95,7 +90,6 @@
 
   .slide3 {
     .title--no-insure {
-      font-family: $ff-raleway;
       color: #0068a9;
       margin-bottom: 5px;
       line-height: 1;
@@ -106,7 +100,6 @@
 
     .title--sub {
       color: #2c2340;
-      font-family: $ff-dancing;
       line-height: 1;
       margin-bottom: 40px;
 
@@ -114,7 +107,6 @@
     }
 
     .preventative-copy {
-      font-family: $ff-lato;
       color: #2c2340;
       line-height: 1;
 
