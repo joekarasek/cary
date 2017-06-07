@@ -1,7 +1,7 @@
 #header.full-header {
 
-  $c-header: #fff;
-  $c-menu-trigger: #000;
+  $c-header: #2b2725;
+  $c-menu-trigger: #fff;
   $nav-font: $ff-lato;
 
   width: 100%;
@@ -22,7 +22,6 @@
     padding-right: 25px;
     padding-top: 20px;
     font-size: 18px;
-    font-family: $ff-lato;
     margin-bottom: 0;
 
     &__phone {
@@ -40,10 +39,10 @@
     margin-right: 0;
     border-right: none;
 
-    @include nav-color(#2c2340);
-    @include nav-color(#171774, 1, 700);
-    @include nav-color(#008c8f, 2, 700);
-    @include nav-color(#789f00, 3, 700);
+    @include nav-color(#FFFFFF);
+    //@include nav-color(#171774, 1, 700);
+    //@include nav-color(#008c8f, 2, 700);
+    //@include nav-color(#789f00, 3, 700);
   }
 
   #primary-menu-trigger {
@@ -66,7 +65,7 @@
     padding-right: 0;
     margin-right: 0;
     border-right: none;
-    padding-left: 30px;
+    padding-left: 15px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -113,7 +112,7 @@
 
   &.sticky-header {
     #primary-menu ul {
-      padding-top: 20px;
+      padding-top: 12px;
     }
   }
 
@@ -132,7 +131,6 @@
     letter-spacing: 1px;
     font-size: 18px;
     padding: 15px 12px 10px;
-    font-family: $ff-lato;
     font-weight: 700;
     text-transform: none;
     transition: padding 0.3s ease;
@@ -169,17 +167,13 @@
     //@media screen and (max-width: $width-xs) {
     //}
   }
-
-  div {
-    font-family: $nav-font;
-  }
 }
 
 //resize header from Canvas
 #header,
 #header-wrap,
 #logo {
-  height: 110px !important;
+  height: 100px !important;
   transition: height 0.4s ease, opacity 0.3s ease;
 
   @media (max-width: $width-md) {
@@ -188,11 +182,11 @@
 }
 
 #logo img {
-  height: 100px !important;
+  height: 80px !important;
   transition: height 0.4s ease, opacity 0.3s ease;
 
   @media (max-width: $width-md) {
-    height: 85px !important;
+    height: 80px !important;
   }
 }
 
@@ -200,5 +194,5 @@
 #header.sticky-header:not(.static-sticky) #header-wrap,
 #header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) #logo img,
 #header.sticky-header:not(.static-sticky) #logo {
-  height: 100px !important;
+  height: 80px !important;
 }
