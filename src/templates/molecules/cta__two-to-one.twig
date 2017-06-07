@@ -1,0 +1,32 @@
+<div class="cta__two-to-one {{ shadow ? 'shadow' : '' }}" {{ id ?: '' }}>
+    <div class="container">
+        <div class="flex--wrapper">
+            <div class="btn--wrapper flex--item">
+               {% include 'atoms/request-appointment-button.twig' with {
+                   'buttonMod': '--style-three'
+               } %}
+            </div>
+            <div class="new-patient flex--item">
+                <div class="hidden-xs hidden-sm">
+                    <h6 class="text allow-orphan">New Patients Hotline:</h6>
+                </div>
+                <div class="hidden-md hidden-lg">
+                    <h6 class="text allow-orphan">New Patients Hotline</h6>
+                </div>
+                <h2 class="new-patient-number allow-orphan">
+                    {% include 'atoms/new-patient-number.twig' %}
+                </h2>
+                {% if existingPatients %}
+                    <div class="hidden-xs hidden-sm">
+                        <p class="existing-patient">Existing Patients: {% include 'atoms/existing-patient-number.twig' %}</p>
+                    </div>
+                {% endif %}
+            </div>
+            {% if existingPatients %}
+                <div class="hidden-md hidden-lg">
+                    <p class="existing-patient">Existing Patients<br> {% include 'atoms/existing-patient-number.twig' %}</p>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</div>

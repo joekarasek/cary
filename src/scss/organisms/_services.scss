@@ -1,0 +1,73 @@
+#section-services {
+  .heading {
+    text-align: center;
+
+    &__title {
+      color: #1c1c60;
+      margin-bottom: 0;
+      padding-top: $spacing-md;
+    }
+
+    &__byline {
+      color: #1c1c60;
+      margin-bottom: 30px;
+
+      a {
+        color: #fff;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .slab-mobile-image {
+    margin-top: -80px;
+  }
+
+  .implant-slab {
+    @media (min-width: 768px) {
+      background-image: url('/assets/services/implant-dentistry.jpg');
+      background-size: cover;
+      background-position: 20% center;
+    }
+
+    &__card {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+
+    &__title {
+      color: #1c1c60;
+    }
+
+    &__copy {
+      color: #1c1c60;
+      line-height: 1.4;
+    }
+  }
+
+  .dentures-slab {
+    @media (min-width: 768px) {
+      background-image: url('/assets/services/cosmetic-dentures.jpg');
+      background-size: cover;
+      background-position: right center;
+
+      .slab-mobile-image {
+        margin-top: -100px;
+      }
+    }
+
+    &__card {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+
+    &__title {
+      color: #1c1c60;
+    }
+
+    &__copy {
+      color: #1c1c60;
+      line-height: 1.4;
+    }
+  }
+}

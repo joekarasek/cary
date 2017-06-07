@@ -1,0 +1,54 @@
+{
+  "team": [
+    {
+      "name": "Tammy",
+      "carousel": true,
+      "modalTarget": "tammy",
+      "image": "tammy.jpg",
+      "title": "Bio Coming Soon...",
+      "text": [
+        "Bio Coming Soon..."
+      ]
+    },
+    {
+      "name": "Keri",
+      "carousel": true,
+      "modalTarget": "kery",
+      "image": "keri.jpg",
+      "title": "Bio Coming Soon...",
+      "text": [
+        "Bio Coming Soon..."
+      ]
+    },
+    {
+      "name": "Lisa",
+      "carousel": true,
+      "modalTarget": "lisa",
+      "image": "lisa.jpg",
+      "title": "Bio Coming Soon...",
+      "text": [
+        "Bio Coming Soon..."
+      ]
+    },
+    {
+      "name": "Rebecca",
+      "carousel": true,
+      "modalTarget": "rebecca",
+      "image": "rebecca.jpg",
+      "title": "Bio Coming Soon...",
+      "text": [
+        "Bio Coming Soon..."
+      ]
+    },
+    {
+      "name": "Shauna",
+      "carousel": true,
+      "modalTarget": "shauna",
+      "image": "shauna.jpg",
+      "title": "Bio Coming Soon...",
+      "text": [
+        "Bio Coming Soon..."
+      ]
+    }
+  ]
+}

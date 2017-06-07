@@ -1,0 +1,24 @@
+{
+  "name": "cary",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "htmlhint": "^0.9.13"
+  },
+  "devDependencies": {
+    "gulp": "github:gulpjs/gulp#4.0",
+    "htmlhint": "^0.9.13",
+    "joes-gulp-tasks": "^0.4.0"
+  },
+  "scripts": {
+    "precommit": "npm test",
+    "test": "stylelint src/scss/**/*.scss && htmlhint build/*.html",
+    "start": "gulp",
+    "gulp": "gulp --tasks && gulp",
+    "gulp:tasks": "gulp --tasks",
+    "build:prod": "gulp compile && cp -r src/assets/loaders build/css/images && cp -r src/assets/loaders build/images"
+  },
+  "author": "",
+  "license": "ISC"
+}

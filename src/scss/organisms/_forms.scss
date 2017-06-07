@@ -1,0 +1,52 @@
+#section-forms {
+  background-image: url('/assets/forms-background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 45px;
+  padding-bottom: 45px;
+
+  .heading {
+    text-align: center;
+
+    &__title {
+      color: #1e1e62;
+      text-transform: uppercase;
+      margin-bottom: 15px;
+      line-height: 1;
+      padding-bottom: 0;
+      padding-top: 10px;
+    }
+  }
+
+  .forms {
+    &__byline {
+      color: #424242;
+      font-size: 18px;
+      padding-bottom: 15px;
+    }
+
+    &__copy {
+      color: #1e1e62;
+
+      a {
+        text-decoration: underline;
+
+        &:hover {
+          color: #1e1e62;
+        }
+      }
+    }
+
+    &__btn-wrapper {
+      padding-bottom: 30px;
+    }
+  }
+
+  .btn {
+    margin: 10px 0;
+
+    @media (min-width: 768px) {
+      margin: -10px 30px 45px;
+    }
+  }
+}
