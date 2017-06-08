@@ -22,7 +22,7 @@
 
     <div id="content" >
 
-        {% include 'molecules/cta__two-to-one.twig' with {
+        {% include 'molecules/cta--three-to-one.twig' with {
             id: 'id="cta-one"',
             existingPatients: true
         } %}
@@ -31,11 +31,11 @@
 
         {% include 'organisms/specials--three-card.twig' %}
 
-        {% include 'molecules/cta__two-to-one.twig' with {
+        {% include 'molecules/cta--three-to-one.twig' with {
             id: 'id="cta-two"',
-            existingPatients: false,
-            shadow: false
+            existingPatients: false
         } %}
+
 
         {% include 'organisms/reviews.twig' %}
 
@@ -43,11 +43,11 @@
 
         {% include 'organisms/insurance.twig' %}
 
-        {% include 'molecules/cta__two-to-one.twig' with {
+        {% include 'molecules/cta--three-to-one.twig' with {
             id: 'id="cta-three"',
-            existingPatients: false,
-            shadow: false
+            existingPatients: true
         } %}
+
 
         {% include 'organisms/services.twig' %}
 

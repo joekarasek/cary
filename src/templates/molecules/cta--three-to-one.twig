@@ -2,19 +2,20 @@
     <div class="container">
         <div class="flex--wrapper">
             <div class="btn--wrapper flex--item">
+                <h4 class="text">Both Locations</h4>
                 <a href="#" class="btn" data-target="#requestAppointmentForm" data-toggle="modal">Request An Appointment</a>
             </div>
             <div class="new-patient flex--item">
                 <h5 class="text">Canby New Patients</h5>
                 <h2 class="new-patient-number"><a href="tel:{{ newPhone }}">{{ newPhoneNoBreak }}</a></h2>
-                <h5 class="text existing-patient-number">Existing Patients:
-                    <a href="tel:{{ existingPhone }}">{{ existingPhoneNoBreak }}</a></h3>
+                {% if existingPatients %}<h5 class="text existing-patient-number hidden-xs hidden-sm">Existing Patients:<a href="tel:{{ existingPhone }}">{{ existingPhoneNoBreak }}</a></h5>{% endif %}
+                {% if existingPatients %}<h5 class="text existing-patient-number hidden-md hidden-lg">Existing Canby Patients:<br><a href="tel:{{ existingPhone }}">{{ existingPhoneNoBreak }}</a></h5>{% endif %}
             </div>
             <div class="existing-patient flex--item">
                 <h5 class="text">Sherwood New Patients</h5>
                 <h2 class="new-patient-number"><a href="tel:1-888-737-4105">(888) 737-4105</a></h2>
-                <h5 class="text existing-patient-number">Existing Patients:
-                    <a href="tel:1-503-925-9992">(503) 925-9992</a></h3>
+                {% if existingPatients %}<h5 class="text existing-patient-number hidden-xs hidden-sm">Existing Patients:<a href="tel:1-503-925-9992">(503) 925-9992</a></h5>{% endif %}
+                {% if existingPatients %}<h5 class="text existing-patient-number hidden-md hidden-lg">Existing Sherwood Patients:<br><a href="tel:1-503-925-9992">(503) 925-9992</a></h5>{% endif %}
             </div>
         </div>
     </div>
