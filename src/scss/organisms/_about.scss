@@ -1,5 +1,5 @@
 .about {
-  background-color: #fff;
+  background-color: #e6f2dc;
 
   .heading {
     padding-top: 30px;
@@ -7,132 +7,35 @@
     text-align: center;
 
     &__main {
-      color: #2c2340;
-      font-family: $ff-raleway;
-      font-weight: 900;
-      margin-bottom: 0;
+      color: #2b2725;
+      margin-bottom: 10px;
       line-height: 1;
-    }
-  }
-
-  //main slab
-  &__doctor-slab {
-    padding-top: 30px;
-
-    @media (min-width: 768px) {
-      background-image: url('/assets/langan-bio.jpg');
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: 20% center;
-      padding-bottom: 60px;
-    }
-  }
-
-  .doctor {
-    padding-top: 30px;
-    padding-bottom: 30px;
-
-    @media (min-width: 768px) {
-      width: 50%;
-    }
-
-    @media (min-width: 992px) {
-      width: 60%;
-    }
-
-    &__wrapper {
-      display: flex;
-      justify-content: flex-end;
-    }
-
-    &__name {
-      color: #007c9f;
-      font-family: $ff-raleway;
-      font-weight: 700;
-
-      @include h4();
-    }
-
-    &__copy {
-      color: #1c1836;
-    }
-
-    &__mobile-image img {
-      width: 100%;
-      margin-top: -20px;
-
-      @media (min-width: 768px) {
-        display: none;
-      }
     }
   }
 
   &__associations-slab {
-    background-color: #e8f1fa;
+    background-color: #fff;
     padding-top: 15px;
     padding-bottom: 15px;
   }
 
-  //team slab
-  &__team-slab {
-    background-color: #005e79;
-    padding-top: 45px;
-    padding-bottom: 30px;
+  .team {
+    &__wrapper {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin-bottom: 30px;
 
-    &__title {
-      color: #fff;
-    }
-  }
+      .card {
+        width: 100%;
 
-  .team-card {
-    padding: 0 10px;
-
-    &__image {
-      display: block;
-      margin-bottom: 15px;
-    }
-
-    &__name {
-      display: block;
-      font-weight: 700;
-      margin-bottom: 5px;
-      line-height: 1;
-
-      @include font-size(24px, 22px, 20px, 20px, 20px);
-      @include link-color(#fff);
-    }
-
-    &__byline {
-      display: block;
-      font-size: 18px;
-      margin-bottom: 5px;
-      line-height: 1;
-
-      @include link-color(#fff);
-    }
-
-    &__read-more {
-      display: block;
-      text-decoration: underline;
-      font-style: italic;
-      margin-bottom: 5px;
-      line-height: 1;
-
-      @include link-color(#fff);
-    }
-
-    @media screen and (min-width: 768px) {
-      &:hover {
-        .team-card__image {
-          @include hover-plus();
+        @media (min-width: 768px) {
+          width: 31%;
         }
 
-        .team-card__name {
-          text-decoration: underline;
-        }
-
-        .team-card__byline {
-          text-decoration: underline;
+        @media (min-width: 990px) {
+          width: 25%;
         }
       }
     }
@@ -168,7 +71,6 @@
 
     &__title {
       color: #2c2340;
-      font-family: $ff-raleway;
       font-weight: 900;
       margin-bottom: 30px;
       line-height: 1;

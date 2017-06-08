@@ -53,7 +53,7 @@
 /// @group effects
 @mixin hover-plus() {
   //margin: 0 auto;
-  display: inline-block;
+  display: block;
   position: relative;
 
   &::after {

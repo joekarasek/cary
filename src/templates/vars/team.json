@@ -1,53 +1,39 @@
 {
   "team": [
     {
-      "name": "Tammy",
+      "name": "Dr. Mike Cary",
       "carousel": true,
-      "modalTarget": "tammy",
-      "image": "tammy.jpg",
-      "title": "Bio Coming Soon...",
+      "modalTarget": "mike",
+      "image": "mike-bio.jpg",
+      "title": "General Dentist",
       "text": [
-        "Bio Coming Soon..."
+        "Dr. Mike Cary and his team would like to welcome you to a fabulous dental experience! By combining advanced clinical dentistry with a fun and friendly style, Dr. Cary and his team will make you more comfortable than you ever thought possible.",
+        "Dr. Cary received his dental degree from the Oregon Health & Science University School of Dentistry, and stays up to date on the latest dental technology and procedures by attending hundreds of hours of continuing education from the leading training courses at Spear Education, the Kois Center, and The Pankey Institute.",
+        "When not in the office, Dr. Cary enjoys spending time with his wife and their three children."
       ]
     },
     {
-      "name": "Keri",
+      "name": "Dr. Frances Sunseri",
       "carousel": true,
-      "modalTarget": "kery",
-      "image": "keri.jpg",
-      "title": "Bio Coming Soon...",
+      "modalTarget": "frances",
+      "image": "frances-bio.jpg",
+      "title": "General Dentist",
       "text": [
-        "Bio Coming Soon..."
+        "Doctor Frances Sunseri is a native Oregonian who has spent many years serving Portland’s dental needs. She received a dental hygiene degree from Mount Hood Community College in 1977 and enjoyed dentistry so much that she eventually went to dental school and receiving her doctorate from Oregon Health Sciences University in 1988.",
+        "Doctor Sunseri strives to make your visit both relaxing and enjoyable, providing a gentle personalized touch in a boutique-style location that is quite different than the usual large dental clinic. She dedicates a large number of hours to advanced education. In fact, she is a recognized Master of the Academy of General Dentistry, an honor earned by fewer than 1% of all dentists, and she is a Fellow of the American College of Dentists. She volunteers at Mission of Mercy and at the Creston Dental Clinic.",
+        "In her free time, Dr. Sunseri loves to row with the Station L rowing club. She enjoys wine-tasting, hiking, and traveling."
       ]
     },
     {
-      "name": "Lisa",
+      "name": "Dr. Kevin Kryder",
       "carousel": true,
-      "modalTarget": "lisa",
-      "image": "lisa.jpg",
-      "title": "Bio Coming Soon...",
+      "modalTarget": "kevin",
+      "image": "kevin-bio.jpg",
+      "title": "General Dentist",
       "text": [
-        "Bio Coming Soon..."
-      ]
-    },
-    {
-      "name": "Rebecca",
-      "carousel": true,
-      "modalTarget": "rebecca",
-      "image": "rebecca.jpg",
-      "title": "Bio Coming Soon...",
-      "text": [
-        "Bio Coming Soon..."
-      ]
-    },
-    {
-      "name": "Shauna",
-      "carousel": true,
-      "modalTarget": "shauna",
-      "image": "shauna.jpg",
-      "title": "Bio Coming Soon...",
-      "text": [
-        "Bio Coming Soon..."
+        "Dr. Kryder was born in Concord, California, but grew up in Eugene from the age of three. When he graduated from Sheldon High School, he worked construction for a short time before enlisting in the US Army. Dr. Kryder’s military career included one tour in Iraq where he was directly involved in the battle of Fallujah and the first Iraqi elections. He was a fire team leader, and earned the rank of Sergeant prior to his honorable discharge after five years of service.",
+        "Dr. Kryder attended the University of the Pacific Arthur A. Dugoni School of Dentistry where he earned his doctor of dental surgery degree. He has enjoyed taking part in dental mission trips both during his studies and since then as he has been able to.",
+        "In his free time, Dr. Kryder enjoys staying physically fit with active hobbies such as running, cycling, hiking, camping, and anything else the beautiful Northwest has to offer. He is also an avid Blazers, Timbers, and Ducks fan."
       ]
     }
   ]

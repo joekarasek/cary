@@ -11,8 +11,10 @@
   HelloWorldDevsTysonSteele.marqueeCarousel({
     autoplay: 6000,
     effect: 'fade',
-    speed: 500
+    speed: 500,
+    loop: true
   });
+
   HelloWorldDevsTysonSteele.tourCarousel('.js-tour-carousel', {
     items: 1,
     margin: 40,

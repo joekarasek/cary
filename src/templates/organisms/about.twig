@@ -1,53 +1,22 @@
 <section id="section-about" class="clearfix about">
 
-    <div class="about__doctor-slab">
-        <div class="heading center">
-            <h2 class="heading__main">MEET THE DOCTOR</h2>
-        </div>
-        <div class="container">
-            <div class="doctor__wrapper">
-                <div class="doctor">
-                    <h3 class="doctor__name">Adam J. Langan, DDS</h3>
-                    <p class="doctor__copy">Dr. Adam Langan received a bachelor of science degree in biology with a minor in
-                        biochemistry from the University of Nebraska–Lincoln and later earned his doctorate from the University
-                        of Nebraska Medical Center College of Dentistry, where he graduated with distinction. Each year, he
-                        participates in world-class continuing education in cosmetic dentistry, implants, and dental technology
-                        to ensure that every restoration is carefully crafted and precise.</p>
-                    <p class="doctor__copy">Dr. Langan is married to Sarah, an optometrist, and they are the proud parents of
-                        Evelyn and Bennett. They also have a dog named Ruby. Dr. Langan’s hobbies include golfing, playing
-                        guitar, and doing yard work.</p>
-                </div>
-            </div>
-        </div>
-        <div class="doctor__mobile-image">
-            <img src="assets/langan-bio-mobile.jpg" alt="{{  mainDoctor }}">
+    <div class="heading center">
+        <h2 class="heading__main">Meet The Team</h2>
+        <h6 class="heading__byline">Click a team member to read more</h6>
+    </div>
+
+    <div class="container">
+        <div class="team__wrapper">
+            {% for person in team %}
+                {% include 'atoms/card.twig' %}
+            {% endfor %}
         </div>
     </div>
+    {% include 'molecules/team__modals.twig' %}
 
     <div class="about__associations-slab">
         <div class="container">
             {% include 'molecules/associations__carousel.twig' %}
-        </div>
-    </div>
-
-    <div class="about__video-slab">
-        <div class="container">
-            <h2 class="video-slab__title center">DR. LANGAN GIVES BACK TO THE COMMUNITY</h2>
-            <div class="video-slab__wrapper">
-                <div class="video-slab__copy center">
-                    <p class="video-slab__text">Dr. Adam Langan gives back in a big way.....and changes lives in our community in the process.</p>
-                </div>
-                <div class="video-slab__iframe">
-                    <iframe src="https://player.vimeo.com/video/218225122" width="640" height="360" allowfullscreen></iframe>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="about__team-slab">
-        <div class="container">
-            <h2 class="about__team-slab__title center">MEET THE TEAM</h2>
-            {% include 'molecules/team__carousel.twig' %}
         </div>
     </div>
 
