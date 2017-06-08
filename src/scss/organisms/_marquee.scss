@@ -30,22 +30,9 @@
 
   .slide1 {
     .slide__title {
-      color: #2c2340;
-      line-height: 0.8;
-      font-weight: 400;
-      margin-bottom: 0;
+      padding-bottom: 45px;
 
       @include font-size(44px, 41px);
-    }
-
-    .slide__title-smile {
-      color: #016e92;
-      font-weight: 700;
-      margin-bottom: 60px;
-      line-height: 1;
-      text-shadow: 4px 3px 13px #fff;
-
-      @include font-size(95px, 76px);
     }
 
     .slide__copy {
@@ -56,65 +43,43 @@
 
       @include font-size(28px, 25px, 24px, 24px, 24px);
     }
-
-    //Align to bottom of slide
-    //.row {
-    //  transform: translateY(-100%);
-    //  top: 100%;
-    //  padding-bottom: 15px;
-    //}
   }
 
   .slide2 {
     .slide__title {
-      color: #2c2340;
-      margin-bottom: 0;
+      padding-bottom: 45px;
 
-      @include font-size(52px, 45px);
+      @include font-size(44px, 41px);
     }
 
-    .stars {
-      padding-top: 10px;
-      padding-bottom: 20px;
-    }
+    .slide__copy {
+      margin-top: 5px;
+      margin-bottom: 15px;
+      line-height: 1;
+      font-weight: 400;
 
-    .copy {
-      color: #332a46;
-      font-weight: 700;
-      line-height: 1.2;
-      margin-bottom: 25px;
-
-      @include font-size(29px, 23px, 18px, 20px, 19px);
+      @include font-size(28px, 25px, 24px, 24px, 24px);
     }
   }
 
   .slide3 {
-    .title--no-insure {
-      color: #0068a9;
-      margin-bottom: 5px;
-      line-height: 1;
-      font-weight: 700;
+    .slide__title {
+      padding-bottom: 20px;
 
-      @include font-size(77px, 66px, 35px);
+      @include font-size(44px, 41px);
     }
 
-    .title--sub {
-      color: #2c2340;
-      line-height: 1;
-      margin-bottom: 40px;
-
-      @include font-size(66px, 55px, 35px);
+    .stars {
+      @media (min-width: 1200px) {
+        width: 250px;
+      }
     }
 
-    .preventative-copy {
-      color: #2c2340;
-      line-height: 1;
-
-      @include font-size(42px, 36px);
-    }
-
-    .btn {
-      @include lr-padding(80px, 60px, 60px);
+    .slide__copy {
+      margin-top: 5px;
+      margin-bottom: 15px;
+      line-height: 1.4;
+      font-weight: 400;
     }
   }
 

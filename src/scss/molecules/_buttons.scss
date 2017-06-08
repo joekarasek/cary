@@ -1,11 +1,10 @@
 a.btn,
 button.btn {
-  font-family: $ff-lato;
   font-weight: 400 !important;
-  background-color: #caed61;
-  color: #00595b;
+  background-color: #ff7a00;
+  color: #fff;
   border-radius: 30px;
-  border: solid 2px #00595b;
+  border: solid 2px #fff;
   padding: 10px 50px;
   //box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.36);
 
@@ -13,21 +12,21 @@ button.btn {
 
   &:hover,
   &:focus {
-    background-color: darken(#caed61, 15%);
+    background-color: darken(#ff7a00, 15%);
     //box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.46);
     transition: all 0.3s ease;
     text-decoration: none;
   }
 
   &.btn--style-two {
-    background-color: #fff;
-    border-color: #0000b5;
-    color: #0000b5;
+    background-color: #009c8b;
+    border-color: #fff;
+    color: #fff;
     //box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.36);
 
     &:hover,
     &:focus {
-      background-color: rgba(0, 0, 181, 0.05);
+      background-color: darken(#009c8b, 15%);
       //box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.46);
     }
   }

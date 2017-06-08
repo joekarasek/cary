@@ -1,7 +1,9 @@
 <!-- Marquee Slider
 ============================================= -->
 <div id="mobile-background" class="hidden-md hidden-lg">
-    <a href="#" data-scrollto="#section-specials" data-offset="0">
+    <a href="#"
+       data-scrollto="#section-specials"
+       data-offset="0">
         <img src="assets/slides/slide-mobile.jpg" style="width:100%;height:auto;" alt="{{ doctorName }}">
     </a>
 </div>
@@ -14,15 +16,21 @@
             {#<!--Slide 1-->#}
             {#<!--=======-->#}
             <div class="swiper-slide swiper-slide-active slide1">
-                <img src="/assets/slides/slide1.jpg" alt="Happy kids with great smiles">
+                <img src="/assets/slides/slide1.jpg" alt="Dr. Cary and Team">
                 <div class="container clearfix slide-content">
                     <div class="row">
                         <div class="col-sm-6 col-sm-push-6 center">
                             {#<h1 class="slide__title">My Family Plus Your Family Equals</h1>#}
                             {#<h2 class="slide__title-smile">GREAT SMILES</h2>#}
-                            <img src="assets/slides/slide1-headline.png" alt="Canby and Sherwood Dentistry">
+                            <img src="assets/slides/slide1-headline.png"
+                                 alt="Canby and Sherwood Dentistry"
+                                 class="slide__title">
                             <h3 class="slide__copy">Now Welcoming New Patients</h3>
-                            <a href="#" class="btn" data-scrollto="#section-specials" data-offset="80">New Patient Offers</a>
+                            <a href="#"
+                               class="btn"
+                               data-scrollto="#section-specials"
+                               data-offset="80">New Patient Offers</a>
+                            {% include 'atoms/down-arrow.twig' %}
                         </div>
                     </div>
                 </div>
@@ -33,11 +41,16 @@
                 <img src="/assets/slides/slide2.jpg" alt="Happy Mother and Child">
                 <div class="container clearfix slide-content">
                     <div class="row">
-                        <div class="col-sm-6">
-                            <h1 class="slide__title">See&nbsp;What&nbsp;Our&nbsp;Patients&nbsp;Are&nbsp;Saying</h1>
-                            <div class="stars"><img src="assets/slides/slide2-stars.png" alt="five stars"></div>
-                            <h5 class="copy">“They worked super well with my daughter   who was very nervous for her first exam! She&nbsp;looks&nbsp;forward&nbsp;to&nbsp;coming&nbsp;back!”&nbsp;&#8209;Sarah</h5>
-                            <a href="#" class="btn" data-offset="80" data-scrollto="#section-reviews">Read More Reviews</a>
+                        <div class="col-sm-6  col-sm-push-6 center">
+                            <img src="assets/slides/slide2-headline.png"
+                                 alt="No Insurance? Our Patients don't need it"
+                                 class="slide__title">
+                            <h3 class="slide__copy">Get your preventive care for<br> a low monthly fee</h3>
+                            <a href="#"
+                               class="btn"
+                               data-offset="80"
+                               data-scrollto="#section-specials">Learn More</a>
+                            {% include 'atoms/down-arrow.twig' %}
                         </div>
                     </div>
                 </div>
@@ -45,14 +58,22 @@
             {#<!--Slide 2-->#}
             {#<!--=======-->#}
             <div class="swiper-slide slide3">
-                <img src="/assets/slides/slide3.jpg" alt="Two happy kids back from the dentist">
+                <img src="/assets/slides/slide3.jpg" alt="Happy family back from the dentist">
                 <div class="container clearfix slide-content">
                     <div class="row">
-                        <div class="col-sm-7">
-                            <h1 class="title--no-insure">NO INSURANCE?</h1>
-                            <h1 class="title--sub">Our patients don’t need it!</h1>
-                            <h3 class="preventative-copy">Get your preventive care for<br>a low monthly fee.</h3>
-                            <a href="#" class="btn" data-offset="80" data-scrollto="#section-insurance">Learn More</a>
+                        <div class="col-sm-6  col-sm-push-6 center">
+                            <img src="assets/slides/slide3-headline.png"
+                                 alt="Pa"
+                                 class="slide__title">
+                            <img src="assets/slides/stars.png"
+                                 alt="five stars"
+                                 class="stars">
+                            <p class="slide__copy">“I really appreciated the friendliness and professionalism that came from everyone in the office, and I felt extremely comfortable!” –Amanda V.</p>
+                            <a href="#"
+                               class="btn"
+                               data-offset="80"
+                               data-scrollto="#section-reviews">Read More</a>
+                            {% include 'atoms/down-arrow.twig' %}
                         </div>
                     </div>
                 </div>
@@ -60,4 +81,4 @@
         </div>
     </div>
 </section>
-{% include 'atoms/down-arrow.twig' %}
+
