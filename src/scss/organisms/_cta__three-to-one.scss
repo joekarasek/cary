@@ -115,3 +115,15 @@
     }
   }
 }
+
+#cta-two {
+  @media (min-width: 992px) {
+    .flex--item:nth-child(1) {
+      order: 1;
+    }
+
+    .flex--item:nth-child(3) {
+      order: -1;
+    }
+  }
+}
