@@ -1,1 +1,5 @@
-<a href="#" class="btn {% if buttonMod %}btn{{ buttonMod }}{% endif %}" data-target="#requestAppointmentForm" data-toggle="modal">Request an Appointment</a>
+{% include "btn.twig" with {
+  attributes: 'data-target="#requestAppointmentForm" data-toggle="modal"',
+  text: 'Request an Appointment',
+  url: '#'
+} %}

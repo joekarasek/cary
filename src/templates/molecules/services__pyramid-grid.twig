@@ -3,8 +3,12 @@
     <div class="container-fluid">
         <div class="row">
             {% for index, service in services %}
-
-                    <div data-toggle="modal" data-target="#services--{{ service.modalTarget }}" class="service-card {{ service.doubleWide ? 'col-md-6 service-card--double' : 'col-sm-6 col-md-3' }} {{ index ==  5 ? 'service-card--cosmetic': ''}}">
+                    {% set classes = [
+                      'service-card',
+                      service.doubleWide ? 'col-md-6 service-card--double' : 'col-sm-6 col-md-3',
+                      index ==  5 ? 'service-card--cosmetic': '',
+                    ] %}
+                    <div data-toggle="modal" data-target="#services--{{ service.modalTarget }}" class="{{ classes|join(' ') }}">
                         <div class="service-card__image-link">
                             <a href="#" data-toggle="modal" data-target="#services--{{ service.modalTarget }}">
                                 <img src="assets/services/{{ service.image }}" alt="{{ service.title }}">
