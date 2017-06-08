@@ -57,7 +57,7 @@
     border-bottom: 0;
 
     @media screen and (max-width: $width-md) {
-      background-color: #fff;
+      background-color: $c-header;
     }
   }
 
@@ -118,11 +118,11 @@
 
   #primary-menu ul li {
     @media screen and (max-width: $width-md) {
-      border-top: 1px solid #000;
-      background-color: #fff;
+      border-top: 1px solid #fff;
+      background-color: $c-header;
 
       &:last-child {
-        border-bottom: 1px solid #000;
+        border-bottom: 1px solid #fff;
       }
     }
   }
