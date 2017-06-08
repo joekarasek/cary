@@ -1,0 +1,85 @@
+{
+  "smiles": [
+    {
+      "name": "Kim",
+      "carousel": true,
+      "modalTarget": "kim",
+      "image": "kim.jpg",
+      "imageModal": "kim.jpg",
+      "title": "Dental Veneers",
+      "text": []
+    },
+    {
+      "name": "Ms. Davis",
+      "carousel": true,
+      "modalTarget": "davis",
+      "image": "davis.jpg",
+      "imageModal": "davis.jpg",
+      "title": "Dental Implants",
+      "text": []
+    },
+    {
+      "name": "Brianna",
+      "carousel": true,
+      "modalTarget": "brianna",
+      "image": "brianna.jpg",
+      "imageModal": "brianna.jpg",
+      "title": "Orthotropics",
+      "text": []
+    },
+    {
+      "name": "Bonnie",
+      "carousel": true,
+      "modalTarget": "bonnie",
+      "image": "bonnie.jpg",
+      "imageModal": "bonnie.jpg",
+      "title": "Crowns",
+      "text": []
+    },
+    {
+      "name": "Eric",
+      "carousel": true,
+      "modalTarget": "eric",
+      "image": "eric.jpg",
+      "imageModal": "eric.jpg",
+      "title": "Orthodontics",
+      "text": []
+    },
+    {
+      "name": "Cerda",
+      "carousel": true,
+      "modalTarget": "cerda",
+      "image": "cerda.jpg",
+      "imageModal": "cerda.jpg",
+      "title": "Dental Implants",
+      "text": []
+    },
+    {
+      "name": "Lynn",
+      "carousel": true,
+      "modalTarget": "lynn",
+      "image": "lynn.jpg",
+      "imageModal": "lynn.jpg",
+      "title": "Dental Implants",
+      "text": []
+    },
+    {
+      "name": "Mrs. Johnson",
+      "carousel": true,
+      "modalTarget": "johnson",
+      "image": "johnson.jpg",
+      "imageModal": "johnson.jpg",
+      "title": "Smile Makeover",
+      "text": []
+    },
+    {
+      "name": "JC",
+      "carousel": true,
+      "modalTarget": "jc",
+      "image": "jc.jpg",
+      "imageModal": "jc.jpg",
+      "title": "Orthodontics",
+      "text": []
+    }
+  ]
+}

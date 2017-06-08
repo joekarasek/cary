@@ -28,6 +28,7 @@
       }
     }
   });
+
   HelloWorldDevsTysonSteele.associationCarousel('.js-associations-carousel', {
     items: 2,
     loop: true,
@@ -49,7 +50,22 @@
       }
     }
   });
+
   HelloWorldDevsTysonSteele.pyramidCarousel('.js-team-carousel', {
+    items: 2,
+    navText: [
+      '<img src="assets/team-arrow-left.png">',
+      '<img src="assets/team-arrow-right.png">'
+    ],
+    responsive: {
+      480: {
+        items: 3
+      }
+    },
+    margin: 10
+  });
+
+  HelloWorldDevsTysonSteele.pyramidCarousel('.js-smiles-carousel', {
     items: 2,
     navText: [
       '<img src="assets/team-arrow-left.png">',
@@ -65,6 +81,7 @@
     },
     margin: 10
   });
+
   HelloWorldDevsTysonSteele.updateCopyright('.js-copyright-year');
 
   // ======= Google Maps =======
