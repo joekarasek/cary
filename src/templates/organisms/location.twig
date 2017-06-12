@@ -1,17 +1,54 @@
 <section id="section-location" class="location location--two-map">
-        <div class="location__card--wrapper">
+    <div class="heading container center">
+        <img src="assets/cary-logo-location.svg" alt="Michael D. Cary, DMD">
+    </div>
 
-            {% include 'molecules/location-card__simple.twig' %}
+    <div class="container cta__three-to-one">
+        <div class="flex--wrapper">
+            <div class="btn--wrapper flex--item">
+                <h4 class="text">Both Locations</h4>
+                <a href="#" class="btn" data-target="#requestAppointmentForm" data-toggle="modal">Request An Appointment</a>
+            </div>
 
+            <div class="new-patient flex--item hidden-xs hidden-sm">
+                <h5 class="text">Canby New Patients</h5>
+                <h2 class="new-patient-number"><a href="tel:{{ newPhone }}">{{ newPhoneNoBreak }}</a></h2>
+                <h5 class="text existing-patient-number hidden-xs hidden-sm">Existing Patients:<a href="tel:{{ existingPhone }}">{{ existingPhoneNoBreak }}</a></h5>
+                <h5 class="text existing-patient-number hidden-md hidden-lg">Existing Canby Patients:<br><a href="tel:{{ existingPhone }}">{{ existingPhoneNoBreak }}</a></h5>
+                <h6 class="text address">351 NW Fourth Avenue<br>Canby, OR 97013</h6>
+            </div>
+
+            <div class="existing-patient flex--item hidden-xs hidden-sm">
+                <h5 class="text">Sherwood New Patients</h5>
+                <h2 class="new-patient-number"><a href="tel:1-888-737-4105">(888) 737-4105</a></h2>
+                <h5 class="text existing-patient-number hidden-xs hidden-sm">Existing Patients:<a href="tel:1-503-925-9992">(503) 925-9992</a></h5>
+                <h5 class="text existing-patient-number hidden-md hidden-lg">Existing Sherwood Patients:<br><a href="tel:1-503-925-9992">(503) 925-9992</a></h5>
+                <h6 class="text address">20015 SW Pacific Hwy, Suite 220<br>Sherwood, OR 97140</h6>
+            </div>
         </div>
+    </div>
 
     <div class="location__map">
-
-        {% include 'atoms/google-map.twig' %}
+        <div class="new-patient center hidden-lg hidden-md">
+            <h5 class="text">Canby New Patients</h5>
+            <h2 class="new-patient-number"><a href="tel:{{ newPhone }}">{{ newPhoneNoBreak }}</a></h2>
+            <h5 class="text existing-patient-number hidden-xs hidden-sm">Existing Patients:<a href="tel:{{ existingPhone }}">{{ existingPhoneNoBreak }}</a></h5>
+            <h5 class="text existing-patient-number hidden-md hidden-lg">Existing Canby Patients:<br><a href="tel:{{ existingPhone }}">{{ existingPhoneNoBreak }}</a></h5>
+            <h6 class="text address">351 NW Fourth Avenue<br>Canby, OR 97013</h6>
+        </div>
 
         <div class="google-map">
             <a href="https://www.google.com/maps/place/Michael+D+Cary+DMD/@45.263826,-122.699572,17z/data=!4m13!1m7!3m6!1s0x54956578b461d02b:0x287969fb71b6d000!2s351+NW+4th+Ave,+Canby,+OR+97013!3b1!8m2!3d45.263826!4d-122.697378!3m4!1s0x54956578b461d02b:0x9fee29320c193189!8m2!3d45.263826!4d-122.697378" target="_blank"><div id="google-map-two" class="gmap"></div></a>
         </div>
 
+        <div class="existing-patient flex--item  hidden-lg hidden-md">
+            <h5 class="text">Sherwood New Patients</h5>
+            <h2 class="new-patient-number"><a href="tel:1-888-737-4105">(888) 737-4105</a></h2>
+            <h5 class="text existing-patient-number hidden-xs hidden-sm">Existing Patients:<a href="tel:1-503-925-9992">(503) 925-9992</a></h5>
+            <h5 class="text existing-patient-number hidden-md hidden-lg">Existing Sherwood Patients:<br><a href="tel:1-503-925-9992">(503) 925-9992</a></h5>
+            <h6 class="text address">20015 SW Pacific Hwy, Suite 220<br>Sherwood, OR 97140</h6>
+        </div>
+
+        {% include 'atoms/google-map.twig' %}
     </div>
 </section>

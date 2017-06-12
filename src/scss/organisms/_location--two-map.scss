@@ -1,7 +1,10 @@
 .location.location--two-map {
+  padding-top: 45px;
+
   .location__map {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 
     @media (min-width: 992px) {
       flex-direction: row;
@@ -19,6 +22,97 @@
           border-left: solid 3px #fff;
         }
       }
+    }
+  }
+
+  .text.address {
+    font-size: 18px;
+    line-height: 1.1;
+    padding-top: 20px;
+  }
+
+  .new-patient {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 15px;
+
+    .text {
+      letter-spacing: 0.4px;
+      color: #000;
+      font-size: 20px;
+      margin-bottom: 0;
+    }
+
+    &-number {
+      color: #ff7a00;
+      font-size: 32px;
+      font-weight: 600;
+      margin-top: 5px;
+      margin-bottom: 15px;
+      line-height: 1;
+
+      @include font-size(39px, 35px, 30px, 28px, 28px);
+
+      a {
+        @include link-color(#ff7a00);
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+
+    @media screen and (max-width: $width-md) {
+      text-align: center;
+      padding-bottom: 15px;
+    }
+  }
+
+  .btn {
+    &--wrapper {
+      text-align: center;
+      padding-bottom: 5px;
+      margin: 0 15px 15px;
+
+      .text {
+        font-size: 21px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+  .existing-patient {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 15px;
+
+    .text {
+      letter-spacing: 0.4px;
+      color: #000;
+      font-size: 20px;
+      margin-bottom: 0;
+    }
+
+    &-number {
+      color: #000;
+      font-weight: 400;
+      font-size: 32px;
+      margin-top: 5px;
+      margin-bottom: 15px;
+      line-height: 1.4;
+
+      a {
+        @include link-color(#000);
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+
+    @media screen and (max-width: $width-md) {
+      text-align: center;
+      padding-top: 15px;
     }
   }
 }
