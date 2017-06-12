@@ -41,6 +41,8 @@
       color: #000;
       font-size: 20px;
       margin-bottom: 0;
+
+      @include font-size(20px, 18px, 20px, 20px, 20px);
     }
 
     &-number {
@@ -69,6 +71,8 @@
   }
 
   .btn {
+    padding: 10px 30px;
+
     &--wrapper {
       text-align: center;
       padding-bottom: 5px;
@@ -91,6 +95,8 @@
       color: #000;
       font-size: 20px;
       margin-bottom: 0;
+
+      @include font-size(20px, 18px, 20px, 20px, 20px);
     }
 
     &-number {
