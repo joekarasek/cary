@@ -1,14 +1,17 @@
-<section id="section-location">
-    <div class="location location__two-column">
+<section id="section-location" class="location location--two-map">
         <div class="location__card--wrapper">
 
             {% include 'molecules/location-card__simple.twig' %}
 
         </div>
-        <div class="location__map">
 
-            {% include 'atoms/google-map.twig' %}
+    <div class="location__map">
 
+        {% include 'atoms/google-map.twig' %}
+
+        <div class="google-map">
+            <a href="https://www.google.com/maps/place/Michael+D+Cary+DMD/@45.263826,-122.699572,17z/data=!4m13!1m7!3m6!1s0x54956578b461d02b:0x287969fb71b6d000!2s351+NW+4th+Ave,+Canby,+OR+97013!3b1!8m2!3d45.263826!4d-122.697378!3m4!1s0x54956578b461d02b:0x9fee29320c193189!8m2!3d45.263826!4d-122.697378" target="_blank"><div id="google-map-two" class="gmap"></div></a>
         </div>
+
     </div>
 </section>

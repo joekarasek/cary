@@ -1,5 +1,4 @@
-
-#google-map5 {
+.gmap {
   height: 200px;
 
   @media (min-width: $width-xs) {
@@ -7,14 +6,14 @@
   }
 
   @media (min-width: $width-sm) {
-    height: 670px;
+    height: 250px;
   }
 
   @media (min-width: $width-md) {
-    height: 670px;
+    height: 550px;
   }
 
   @media (min-width: $width-lg) {
-    height: 690px;
+    height: 550px;
   }
 }

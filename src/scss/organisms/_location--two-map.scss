@@ -1,0 +1,24 @@
+.location.location--two-map {
+  .location__map {
+    display: flex;
+    flex-direction: column;
+
+    @media (min-width: 992px) {
+      flex-direction: row;
+      justify-content: space-between;
+
+      .google-map {
+        box-sizing: border-box;
+        width: 50%;
+
+        &:first-child {
+          border-right: solid 3px #fff;
+        }
+
+        &:last-child {
+          border-left: solid 3px #fff;
+        }
+      }
+    }
+  }
+}
