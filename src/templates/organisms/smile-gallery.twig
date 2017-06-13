@@ -6,16 +6,14 @@
     </div>
 
     <div class="container">
-        <div class="container">
-            <div class="smiles__wrapper">
-                <div class="owl-carousel js-smiles-carousel">
-                    {% for person in smiles %}
-                        {% include 'atoms/card--smiles.twig' %}
-                    {% endfor %}
-                </div>
+        <div class="smiles__wrapper">
+            <div class="owl-carousel js-smiles-carousel">
+                {% for person in smiles %}
+                    {% include 'atoms/card--smiles.twig' %}
+                {% endfor %}
             </div>
         </div>
-        {#{% include 'molecules/team__modals.twig' %}#}
     </div>
+    {% include 'molecules/smile__modals.twig' %}
 
 </section>

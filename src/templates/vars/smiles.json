@@ -7,7 +7,7 @@
       "image": "kim.jpg",
       "imageModal": "kim.jpg",
       "title": "Dental Veneers",
-      "text": []
+      "text": ["Kim’s front teeth were worn, discolored and damaged enamel.  Porcelain veneers were used to brighten the smile and protect her teeth."]
     },
     {
       "name": "Ms. Davis",
@@ -16,7 +16,7 @@
       "image": "davis.jpg",
       "imageModal": "davis.jpg",
       "title": "Dental Implants",
-      "text": []
+      "text": ["Mrs. Davis had 2 missing front teeth and the bridge replacing these teeth needed to be redone because of cavities. The support teeth were weakened from the bridge. Two dental implants were placed and 4 crowns were inserted to replace her missing teeth."]
     },
     {
       "name": "Brianna",
@@ -25,7 +25,7 @@
       "image": "brianna.jpg",
       "imageModal": "brianna.jpg",
       "title": "Orthotropics",
-      "text": []
+      "text": ["Patient had a gummy smile, narrow palate and small jaws.  Other problems included snoring and restless sleep.  If left until age 10 or older, her smile would be difficult to improve except straight teeth.  As you can see, her face grew more forward with orthotropics."]
     },
     {
       "name": "Bonnie",
@@ -34,16 +34,16 @@
       "image": "bonnie.jpg",
       "imageModal": "bonnie.jpg",
       "title": "Crowns",
-      "text": []
+      "text": ["Bonnie had 3 old crowns with decay and a poor bite.  Orthodontics was used to correct the bite so her new  4 crowns would look better and last longer."]
     },
     {
-      "name": "Eric",
+      "name": "Erica",
       "carousel": true,
-      "modalTarget": "eric",
-      "image": "eric.jpg",
-      "imageModal": "eric.jpg",
+      "modalTarget": "erica",
+      "image": "erica.jpg",
+      "imageModal": "erica.jpg",
       "title": "Orthodontics",
-      "text": []
+      "text": ["Erica came in with crowded teeth, narrow arch and poor bite.  Crozat orthodontics and braces were used to grow the jaws to make room for all the adult teeth and fix her poor bit"]
     },
     {
       "name": "Cerda",
@@ -52,7 +52,7 @@
       "image": "cerda.jpg",
       "imageModal": "cerda.jpg",
       "title": "Dental Implants",
-      "text": []
+      "text": ["Cerda’s front teeth were worn and the two front teeth had old root canals.  One of those teeth was cracked and needed to be removed.  A dental implant was replaced one of the front teeth and 4 crowns to fix the font teeth."]
     },
     {
       "name": "Lynn",
@@ -61,7 +61,7 @@
       "image": "lynn.jpg",
       "imageModal": "lynn.jpg",
       "title": "Dental Implants",
-      "text": []
+      "text": ["Lynn wanted to have implants to replace missing teeth and old bridges. He wanted something that would last and look good. Dental implants and crowns restored his smile and ability to eat."]
     },
     {
       "name": "Mrs. Johnson",
@@ -70,7 +70,7 @@
       "image": "johnson.jpg",
       "imageModal": "johnson.jpg",
       "title": "Smile Makeover",
-      "text": []
+      "text": ["Mrs. Johnson wanted to improve her smile.  She also had some loose teeth, missing a tooth and recessed gums.  The poor bite was causing her teeth to loosen and wear down.  She had invisible braces and veneers to enhance her smile.  The missing tooth was replaced with a dental implant."]
     },
     {
       "name": "JC",
@@ -79,7 +79,7 @@
       "image": "jc.jpg",
       "imageModal": "jc.jpg",
       "title": "Orthodontics",
-      "text": []
+      "text": ["JC had extremely crowded teeth, impacted canine and over bite.  Crozat orthodontics and braces were used to correct her dental malocclusion and bring the impacted tooth into the correct position."]
     }
   ]
 }

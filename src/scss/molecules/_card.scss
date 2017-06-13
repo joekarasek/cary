@@ -3,11 +3,7 @@
   margin-bottom: 15px;
 
   &__image {
-    height: 340px;
-    position: relative;
-    background-position: center top;
-    background-size: cover;
-    background-repeat: no-repeat;
+    width: 100%;
 
     &:hover {
       @include hover-plus();
