@@ -1,73 +1,83 @@
 #section-services {
-  .heading {
-    text-align: center;
+  background-color: #e6f2dc;
 
-    &__title {
-      color: #1c1c60;
-      margin-bottom: 0;
-      padding-top: $spacing-md;
+  .services-carousel-one {
+    &__item {
+      position: relative;
     }
 
-    &__byline {
-      color: #1c1c60;
-      margin-bottom: 30px;
+    &__copy {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      display: flex;
+      align-items: center;
 
-      a {
+      &--card-one * {
         color: #fff;
-        text-decoration: underline;
+      }
+
+      &--card-two *,
+      &--card-three * {
+        color: #000;
+      }
+
+      .col-sm-6 {
+        padding-left: 45px;
+        padding-right: 45px;
+      }
+    }
+
+    &__title {
+      @media (max-width: 991px) {
+        font-size: 28px;
+        margin-bottom: 8px;
+      }
+    }
+
+    &__text {
+      @media (max-width: 991px) {
+        font-size: 15px;
       }
     }
   }
 
-  .slab-mobile-image {
-    margin-top: -80px;
-  }
-
-  .implant-slab {
-    @media (min-width: 768px) {
-      background-image: url('/assets/services/implant-dentistry.jpg');
-      background-size: cover;
-      background-position: 20% center;
-    }
-
-    &__card {
-      padding-top: 60px;
-      padding-bottom: 60px;
-    }
-
+  .services-mobile-one {
     &__title {
-      color: #1c1c60;
+      color: #009c8b;
+    }
+
+    &__text {
+      color: #2b2725;
+    }
+
+    &__image {
+      width: 100%;
     }
 
     &__copy {
-      color: #1c1c60;
-      line-height: 1.4;
+      padding-top: 20px;
+      padding-bottom: 45px;
     }
   }
 
-  .dentures-slab {
-    @media (min-width: 768px) {
-      background-image: url('/assets/services/cosmetic-dentures.jpg');
-      background-size: cover;
-      background-position: right center;
+  $offset: 0;
 
-      .slab-mobile-image {
-        margin-top: -100px;
-      }
-    }
+  .owl-carousel .owl-nav [class*=owl-] {
+    right: $offset;
+  }
 
-    &__card {
-      padding-top: 60px;
-      padding-bottom: 60px;
-    }
+  .owl-carousel .owl-nav .owl-prev {
+    left: $offset;
+  }
 
-    &__title {
-      color: #1c1c60;
-    }
+  .owl-carousel:hover .owl-nav .owl-next {
+    right: $offset;
+  }
 
-    &__copy {
-      color: #1c1c60;
-      line-height: 1.4;
-    }
+  .owl-carousel:hover .owl-nav .owl-prev {
+    left: $offset;
   }
 }

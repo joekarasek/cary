@@ -5,9 +5,9 @@
 
     </div>
 
-    <div class="container">
-        <div class="smiles__wrapper">
-            <div class="owl-carousel js-smiles-carousel">
+    <div class="full-width-carousel__wrapper">
+        <div class="container full-width-carousel__container-fix">
+            <div class="owl-carousel js-smiles-carousel full-width-carousel">
                 {% for person in smiles %}
                     {% include 'atoms/card--smiles.twig' %}
                 {% endfor %}

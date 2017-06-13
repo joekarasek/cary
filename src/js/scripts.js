@@ -50,6 +50,29 @@
     },
   });
 
+  HelloWorldDevsTysonSteele.pyramidCarousel('.js-services-carousel--one', {
+    items: 1,
+    loop: true,
+    autoplay: true,
+    autoplaySpeed: 500,
+    autoplayTimeout: 5000,
+    autoplayHoverPause: false,
+    autoWidth: false,
+    navText: [
+      '<img src="assets/left-arrow.png">',
+      '<img src="assets/right-arrow.png">',
+    ],
+    nav: true,
+    dots: false,
+    margin: 40,
+    slideBy: 1,
+    responsive: {
+      550: {
+        items: 1,
+      },
+    },
+  });
+
   HelloWorldDevsTysonSteele.pyramidCarousel('.js-team-carousel', {
     items: 2,
     navText: [
@@ -67,8 +90,8 @@
   HelloWorldDevsTysonSteele.pyramidCarousel('.js-smiles-carousel', {
     items: 1,
     navText: [
-      '<img src="assets/team-arrow-left.png">',
-      '<img src="assets/team-arrow-right.png">',
+      '<img src="assets/left-arrow.png">',
+      '<img src="assets/right-arrow.png">',
     ],
     responsive: {
       550: {
