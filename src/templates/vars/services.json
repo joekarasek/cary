@@ -2,72 +2,53 @@
   "services":[
     {
       "doubleWide": false,
-      "title": "Family Care",
-      "titleFull": "Family Care",
-      "image": "family-care.jpg",
-      "modalTarget": "family",
-      "text": ["From children to the elderly, our skilled dental team is familiar with the unique needs of every patient, no matter their age. Our goal is to help you and your family develop great oral habits that will last a lifetime.",
-        "Join us today and discover how our practice can help treat your entire family."]
+      "title": "Veeners",
+      "titleFull": "Veeners",
+      "image": "veneers.jpg",
+      "modalTarget": "veeners",
+      "text": ["Veneers are very thin porcelain pieces that are custom made to adhere directly to the front of teeth without grinding or shaving. Transform your smile without drilling on your natural teeth!",
+        "In the hands of a highly skilled dentist, porcelain laminates can provide you with an incredibly natural, beautiful smile. They are virtually undetectable and can dramatically improve your appearance. They are durable and long-lasting when compared to other cosmetic treatments."]
     },
     {
       "doubleWide": false,
-      "title": "Cosmetic Dentistry",
-      "titleFull": "Cosmetic Dentisty",
-      "image": "cosmetic.jpg",
-      "modalTarget": "cosmetic",
-      "text": ["Dental aesthetic restoration is one of the most cost-effective ways to improve your appearance. A beautiful, bright, healthy smile will increase self-confidence and overall life satisfaction, and make you look years younger. Crowns, veneers, tooth-colored porcelain fillings, and bonding are common techniques for dental restoration. We will recommend the best option for your case to restore your tooth to its full functionality and give you the beautiful smile you deserve.​"]
+      "title": "Smile Whitening",
+      "titleFull": "Smile Whitening",
+      "image": "whitening.jpg",
+      "modalTarget": "whitening",
+      "text": ["Many everyday things like coffee, tea and wine can significantly dull teeth. Smile-whitening enables us to significantly brighten your smile for that dazzling white smile you deserve.",
+        "Plastic whitening trays will be made from models of your teeth. You will then place a special whitening gel in each tray and wear the trays in your mouth for several hours per day. (Many patients wear their trays after dinner and before bed.) A significant change in tooth color is usually seen in just four to six weeks."]
     },
     {
       "doubleWide": false,
-      "title": "Mercury Free",
-      "titleFull": "Mercury-Free Restorations",
-      "image": "mercury-free.jpg",
-      "modalTarget": "mercury",
-      "text": ["The common silver filling contains mercury. Dr. Langan uses the highest-quality biocompatible, tooth-colored restorations to create healthy, beautiful smiles. Since the composite material adheres directly to the tooth enamel, less preparation of the tooth is required before using it. This means it is more durable and provides a more natural-looking result."]
+      "title": "Orthotropics",
+      "titleFull": "Orthotropics",
+      "image": "orthotropics-cover.jpg",
+      "imageModal": "orthotropics-modal.jpg",
+      "modalTarget": "orthotropic",
+      "text": ["A new way of fixing crowded teeth by treating the face rather than just teeth,  orthotropics was developed to guide the forward growth of the upper and lower jaws. Guiding the growth of the jaws forward can provide enough space for all the adult teeth while improving facial balance and appearance. The treatment is most successful on children ages 4-9 as their oral posture can be most easily corrected, however orthotropic treatment can even help adults."]
     },
     {
       "doubleWide": false,
-      "title": "Sedation Dentistry",
-      "titleMobil": "Sedation Dentistry",
-      "titleFull": "Sedation Dentistry",
-      "image": "sedation.jpg",
-      "modalTarget": "sedation",
-      "text": ["Sedation dentistry is an excellent treatment for patients with extensive dental needs, or who are concerned about anxiety, difficulty getting numb, or sensitive teeth."]
+      "title": "Orthodontics",
+      "titleFull": "Orthodontics",
+      "image": "orthodontics.jpg",
+      "modalTarget": "orthodontics",
+      "text": ["A beautifully-aligned natural smile improves your appearance and overall health. Crowded, misaligned teeth are a symptom of a more serious condition that affects how the face grows and teeth grow in. Our philosophy is to address the underlying issue so your facial balance is improved and results in a great smile. Please contact us today for a free orthodontic consultation!"]
     },
     {
       "doubleWide": false,
-      "title": "Clear Tray Orthodontics",
-      "titleFull": "Clear Tray Orthodontics",
-      "image": "clear-orthodontics.jpg",
-      "modalTarget": "clear",
-      "text": ["These “invisible” aligners are the latest in orthodontic technology for adults and teens. Straight teeth and a revitalized smile no longer need to come from a mouth full of unattractive wire and bracket braces. Enhancing self-esteem and physical confidence, invisible braces offer an esthetic and barely visible alternative to conventional wire/bracket braces."]
+      "title": "Bonding",
+      "titleFull": "Cosmetic Bonding",
+      "image": "bonding.jpg",
+      "modalTarget": "bonding",
+      "text": ["Composite resin is a white, tooth colored material that can be shaded to match your teeth. This material can give you a low-cost improvement in your smile."]
     },
     {
       "doubleWide": false,
-      "title": "CEREC One-Visit Crowns",
-      "titleFull": "CEREC® One-Visit Crowns",
-      "image": "cerec.jpg",
-      "modalTarget": "cerec",
-      "text": ["CEREC® technology allows our practice to create tooth-colored porcelain restorations for healthy, beautiful smiles in a single appointment.",
-        "Crowns should be placed before the tooth is so decayed that it may fracture. This can often help prevent the expense of root canal therapy in the future. If a tooth is too damaged to have a crown applied, a porcelain bridge may be a good alternative."]
-    },
-    {
-      "doubleWide": false,
-      "title": "Sleep Apnea Treatment",
-      "titleMobil": "Apnea",
-      "titleFull": "Sleep Apnea Treatment",
-      "image": "apnea.jpg",
-      "modalTarget": "apnea",
-      "text": ["Obstructive sleep apnea occurs when the airway completely collapses, blocking airflow into the lungs. The harder one tries to breathe, the tighter the airway seals. This airway obstruction persists until the brain partially awakens the person, unconsciously closing the jaw and returning the tongue and throat to a normal position.",
-      "We offer effective, nonsurgical relief from sleep apnea and other sleep-related disorders—including snoring. Ask us how you can get the restful, healthy sleep you’ve been missing."]
-    },
-    {
-      "doubleWide": false,
-      "title": "Digital X-Rays",
-      "titleFull": "Digital X-Rays (or Digital Radiography)s",
-      "image": "digital-xray.jpg",
-      "modalTarget": "xray",
-      "text": ["Our use of digital x-ray technology reduces your radiation exposure and eliminates the use of chemicals. It’s better for you and the  environment.",
-        "It's also easy for you to see what the doctor sees. Your digital x-ray can be seen on a computer screen located next to your dental chair. This helps you understand your needs and make informed choices about your treatment."]
+      "title": "Gum Care",
+      "titleFull": "Gum Care",
+      "image": "gum-care.jpg",
+      "modalTarget": "gum",
+      "text": ["Gum disease is treated by carefully removing the bacteria and substances that form in the pockets around the teeth. The removal of this material occurs on a microscopic level and requires great skill. Our dental team has had advanced training to effectively remove all of the bacteria."]
     }
   ]}

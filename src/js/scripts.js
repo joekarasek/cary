@@ -42,8 +42,11 @@
     slideBy: 1,
     responsive: {
       550: {
-        items: 3,
+        items: 2,
       },
+      768: {
+        items: 3,
+      }
       992: {
         items: 4,
       },
@@ -71,6 +74,34 @@
         items: 1,
       },
     },
+  });
+
+  HelloWorldDevsTysonSteele.pyramidCarousel('.js-services-carousel--two', {
+    items: 2,
+    navText: [
+      '<img src="assets/left-arrow.png">',
+      '<img src="assets/right-arrow.png">',
+    ],
+    responsive: {
+      480: {
+        items: 3,
+      },
+    },
+    margin: 40,
+  });
+
+  HelloWorldDevsTysonSteele.pyramidCarousel('.js-services-carousel--mobile', {
+    items: 1,
+    navText: [
+      '<img src="assets/left-arrow.png">',
+      '<img src="assets/right-arrow.png">',
+    ],
+    responsive: {
+      480: {
+        items: 1,
+      },
+    },
+    margin: 10,
   });
 
   HelloWorldDevsTysonSteele.pyramidCarousel('.js-team-carousel', {

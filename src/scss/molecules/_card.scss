@@ -1,6 +1,8 @@
 .card {
   transition: box-shadow 0.5s;
   margin-bottom: 15px;
+  // Fix needed for box-shadow to show on cards in owl-carousels
+  margin-right: 2px;
 
   &__image {
     width: 100%;
@@ -39,11 +41,15 @@
   }
 
   &:hover {
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.35);
 
     .card__text > * {
       text-decoration: underline;
     }
+  }
+
+  &--services .card__sub {
+    text-decoration: underline;
   }
 }
 

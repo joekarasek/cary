@@ -1,5 +1,22 @@
 #section-services {
   background-color: #e6f2dc;
+  padding-bottom: 60px;
+
+  .heading {
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
+
+    &__title {
+      margin-bottom: 10px;
+      line-height: 1;
+    }
+
+    &__byline {
+      margin-bottom: 0;
+      line-height: 1;
+    }
+  }
 
   .services-carousel-one {
     &__item {
@@ -60,6 +77,42 @@
     &__copy {
       padding-top: 20px;
       padding-bottom: 45px;
+    }
+  }
+
+  $offset: 0;
+
+  .owl-carousel .owl-nav [class*=owl-] {
+    right: $offset;
+  }
+
+  .owl-carousel .owl-nav .owl-prev {
+    left: $offset;
+  }
+
+  .owl-carousel:hover .owl-nav .owl-next {
+    right: $offset;
+  }
+
+  .owl-carousel:hover .owl-nav .owl-prev {
+    left: $offset;
+  }
+
+  //To allow the arrows to go out to the edges
+  .full-width-carousel {
+    position: static;
+
+    &__container-fix {
+      //Important used to override canvas
+      position: static !important;
+    }
+
+    &__wrapper {
+      position: relative;
+    }
+
+    .owl-stage-outer {
+      position: static;
     }
   }
 

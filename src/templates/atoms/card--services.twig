@@ -1,0 +1,14 @@
+<div data-toggle="modal"
+     data-target="#modal--{{ service.modalTarget }}"
+     class="card card--{{ service.name }} card--services">
+    {#<a href="#" data-toggle="modal" data-target="#team-modal{{ service.modalTarget }}">#}
+        <div class="card__image">
+            <img src="/assets/services/{{ service.image }}" alt="A happy patient with a new smile">
+        </div>
+        <div class="card__text">
+            <h5 class="card__title">{{ service.title }}</h5>
+            <h6 class="card__sub">Learn More</h6>
+            {#<p class="card__more">READ MORE</p>#}
+        </div>
+    {#</a>#}
+</div>
