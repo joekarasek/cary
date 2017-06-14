@@ -4,20 +4,21 @@
   $c-sub-header: #2b2725;
   $c-preventative: #000;
   $c-copy: #000;
-  $c-mobile-bg: white;
+  $c-mobile-bg: #e6f2dc;
 
   padding-top: 50px;
   padding-bottom: 30px;
   background-image: url('/assets/membership-role.jpg');
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center left;
   background-color: #e6f2dc;
-  border-top: solid 8px #fff;
+  border-top: solid 5px #fff;
 
-  @media (max-width: $width-sm - 1) {
+  @media (max-width: $width-md - 1) {
     background-color: $c-mobile-bg;
     background-image: none;
+    padding-bottom: 0;
 
     .row > div {
       text-align: center;
@@ -82,8 +83,12 @@
   .mobile-insurance-fix {
     display: none;
 
-    @media (max-width: $width-sm - 1) {
-      margin-top: -100px;
+    img {
+      width: 100%;
+    }
+
+    @media (max-width: $width-md - 1) {
+      margin-top: -20px;
       display: block;
     }
   }

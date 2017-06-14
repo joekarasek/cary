@@ -16,6 +16,10 @@
       margin-bottom: 0;
       line-height: 1;
     }
+
+    @media (min-width: 768px) {
+      border-top: solid 5px #fff;
+    }
   }
 
   .services-carousel-one {
