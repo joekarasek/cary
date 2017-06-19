@@ -119,6 +119,10 @@
   }
 
   #primary-menu ul li {
+    &.current > a {
+      text-decoration: underline !important;
+    }
+
     @media screen and (max-width: $width-md) {
       border-top: 1px solid #fff;
       background-color: $c-header;
@@ -138,7 +142,7 @@
     transition: padding 0.3s ease;
 
     &:hover {
-      text-decoration: none !important;
+      text-decoration: underline !important;
     }
 
     @media screen and (max-width: 1300px) {
