@@ -3,7 +3,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  padding-bottom: 30px;
+  padding-bottom: 60px;
   border-bottom: solid #fff 4px;
 
   .heading {
@@ -24,7 +24,7 @@
   }
 
   .row {
-    padding-bottom: $spacing-lg;
+    //padding-bottom: $spacing-lg;
   }
 
   .review-wrapper > div:last-child {
@@ -43,6 +43,10 @@
   }
 
   @include birdeye-footer(#fff, true);
+
+  .bf-dv {
+    padding-top: 0;
+  }
 
   ////Video Slab
   //.reviews__video-slab {

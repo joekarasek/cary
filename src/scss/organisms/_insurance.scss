@@ -9,13 +9,18 @@
   padding-top: 50px;
   padding-bottom: 30px;
   background-image: url('/assets/membership-role.jpg');
-  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center left;
+  background-position: -100px 0;
+  background-size: contain;
   background-color: #e6f2dc;
   border-top: solid 5px #fff;
 
-  @media (max-width: $width-md - 1) {
+  @media (min-width: 1200px) {
+    background-size: contain;
+    background-position: 0 0;
+  }
+
+  @media (max-width: $width-md) {
     background-color: $c-mobile-bg;
     background-image: none;
     padding-bottom: 0;
@@ -87,7 +92,7 @@
       width: 100%;
     }
 
-    @media (max-width: $width-md - 1) {
+    @media (max-width: $width-md) {
       margin-top: -20px;
       display: block;
     }

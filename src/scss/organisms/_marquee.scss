@@ -75,7 +75,7 @@
       padding-bottom: 0;
 
       @media (min-width: 1200px) {
-        padding-bottom: 45px;
+        max-width: 500px;
       }
 
       @include font-size(44px, 41px);
@@ -83,7 +83,8 @@
 
     .stars {
       @media (min-width: 1200px) {
-        width: 250px;
+        width: 180px;
+        padding-bottom: 5px;
       }
     }
 
